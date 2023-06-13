@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ui"
+version = "0.1.0"
+description = ""
+authors = ["sophia.sandoval <sandovalm.sophia@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flet = "^0.6.2"
+mysql-connector-python = "^8.0.33"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
